@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<head>
+<form action ="/my-handling-form-page" method="post">
+</head>
+<title>html challenge</title>
+<h1>Tindi</h1>
+<body>
+<p>Please enter your information below</p>
+<form>
+<div>
+<label for="name">Name:</label>
+<input type="text" id="name" name="user_name">
+</div>
+<div>
+<label for="lastname">Surname:</label>
+<input type="surname" id="lastname" name="user_surname">
+</div>
+<div>
+<label for="gen">Gender:</label>
+<input type="radio" name="gender" value="male" checked>
+Male
+<input type="radio" name="gender" value="female" checked>
+Female<br>
+</div>
+<div>
+  <label for="age">Age:</label>
+  <input type="age" id="age" age="user_age">
+</div>
+  <div>
+<input type="submit" value="Submit">
+</div>
+</form>
